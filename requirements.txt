@@ -1,0 +1,35 @@
+# ============================================================
+# ChemXplain — pip requirements
+# Python 3.11 | CUDA 12.1
+# ============================================================
+
+# ── Web UI ───────────────────────────────────────────────────
+streamlit==1.36.0
+
+# ── Scientific Computing ────────────────────────────────────
+pandas
+numpy
+matplotlib
+seaborn
+
+# ── Cheminformatics & 3D Visualization ──────────────────────
+# NOTE: RDKit must be installed via conda for correct C++ bindings:
+#   conda install -c conda-forge rdkit=2024.03.1
+py3Dmol
+stmol
+
+# ── XAI, ADMET Prediction & MMP Generation ──────────────────
+admet-ai==1.0.0
+crem==0.2.10
+dimorphite-dl==2.1.2
+
+# ── LLM Integration ─────────────────────────────────────────
+google-genai
+
+# ── PyTorch (GPU) ────────────────────────────────────────────
+# Install PyTorch separately according to your CUDA version.
+# For CUDA 12.1 (recommended):
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+#
+# For CPU-only:
+#   pip install torch torchvision torchaudio

@@ -1,0 +1,51 @@
+# ============================================================
+# ChemXplain — Conda Environment
+# Exact GPU-reproducible environment for CUDA 12.1
+#
+# Create:  conda env create -f environment.yml
+# Activate: conda activate chemxplain
+# Update:   conda env update -f environment.yml --prune
+# ============================================================
+
+name: chemxplain
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # ── Python Runtime ─────────────────────────────────────────
+  - python=3.11
+
+  # ── RDKit (must come via conda for correct C++ bindings) ───
+  - rdkit=2024.03.1
+
+  # ── pip packages ───────────────────────────────────────────
+  - pip
+  - pip:
+    # PyTorch + CUDA 12.1 — GPU accelerated inference
+    - --extra-index-url https://download.pytorch.org/whl/cu121
+    - torch
+    - torchvision
+    - torchaudio
+
+    # Web UI
+    - streamlit==1.36.0
+
+    # Scientific computing
+    - pandas
+    - numpy
+    - matplotlib
+    - seaborn
+
+    # Cheminformatics & 3D visualization
+    - py3Dmol
+    - stmol
+
+    # XAI, ADMET, MMP generation
+    - admet-ai==1.0.0
+    - crem==0.2.10
+    - dimorphite-dl==2.1.2
+
+    # LLM integration
+    - google-genai
