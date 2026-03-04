@@ -55,8 +55,8 @@ The result: a scientifically rigorous, fully explainable path from a toxic lead 
 | **Ring/Motif Ablation** | Masks entire ring systems simultaneously to reveal macro-structural contributions |
 | **Multi-Property Trade-Off Quadrant** | Scatter plot identifying atoms that simultaneously drive multiple liabilities |
 | **Point Mutation Array** | Heatmap of N/O/F/S bioisosteric swaps across top-5 liability atoms |
-| **⚛️ Gasteiger Charge Map** | *(V13)* Atom-level partial charge contour overlay — electron-poor (red) vs electron-rich (blue) atoms (Gasteiger & Marsili, 1980) |
-| **⚛️ Crippen LogP Map** | *(V13)* Per-atom logP contribution contour overlay — lipophilic hotspots (pink) vs hydrophilic regions (green) (Wildman & Crippen, 1999) |
+| **Gasteiger Charge Map** | *(V13)* Atom-level partial charge contour overlay — electron-poor (red) vs electron-rich (blue) atoms (Gasteiger & Marsili, 1980) |
+| **Crippen LogP Map** | *(V13)* Per-atom logP contribution contour overlay — lipophilic hotspots (pink) vs hydrophilic regions (green) (Wildman & Crippen, 1999) |
 | **CReM Exhaustive Generation** | Mines ChEMBL for chemically valid, synthesizable Matched Molecular Pairs |
 | **Lipinski Ro5 Filter** | Optional drug-likeness gating (deactivatable for PROTACs/macrocycles) |
 | **SA Score** | Ertl & Schuffenhauer (2009) synthetic accessibility scoring on all generated molecules |
