@@ -6,7 +6,6 @@
   <img src="https://img.shields.io/badge/RDKit-Cheminformatics-09A655?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Streamlit-1.36.0-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
   <img src="https://img.shields.io/badge/Version-V13-blueviolet?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Status-Publication_Ready-brightgreen?style=for-the-badge"/>
 </p>
 
 <p align="center">
@@ -441,16 +440,6 @@ ChemXplain stands entirely on the shoulders of open-source science. If you use t
 
 ---
 
-## ⚠️ Checklist Before Publishing
-
-- [ ] Remove any hardcoded API keys from `app.py` (currently safe — key is taken via sidebar)
-- [ ] Add screenshots to `assets/` folder and link them in this README
-- [ ] Run `bash setup.sh` on a fresh machine to verify database download works
-- [ ] Test with `conda env create -f environment.yml` on a second machine
-- [ ] Add your institution/author name to the license
-
----
-
 ## 📄 License
 
 This project is released under the **MIT License**. See `LICENSE` for details.
@@ -458,6 +447,6 @@ This project is released under the **MIT License**. See `LICENSE` for details.
 ---
 
 <p align="center">
-  <i>Built with ❤️ for the computational drug discovery community.</i><br>
+  <i>Built for the computational drug discovery community.</i><br>
   <i>If this tool helped your research, please ⭐ the repository.</i>
 </p>
