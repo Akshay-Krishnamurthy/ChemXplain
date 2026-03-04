@@ -457,6 +457,18 @@ ChemXplain stands entirely on the shoulders of open-source science. If you use t
 
 ---
 
+## 👤 Author
+
+**Akshay Krishnamurthy Hegde**
+
+- 🔬 **Field:** Computational Drug Discovery · Machine Learning · Cheminformatics
+- 🛠️ **Tools:** RDKit · ADMET-AI · PyTorch · scikit-learn · XGBoost · SHAP · PBPK Modelling
+- 🐙 **GitHub:** [Akshay-Krishnamurthy](https://github.com/Akshay-Krishnamurthy)
+
+> *"Bridging the gap between AI explainability and real-world drug discovery."*
+
+---
+
 ## 📄 License
 
 This project is released under the **MIT License**. See `LICENSE` for details.
