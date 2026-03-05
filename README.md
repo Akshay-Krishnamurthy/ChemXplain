@@ -8,7 +8,6 @@
   <img src="https://img.shields.io/badge/REINVENT4-4.7.15-9B59B6?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Version-V16-blueviolet?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Status-Publication_Ready-brightgreen?style=for-the-badge"/>
 </p>
 
 <p align="center">
@@ -44,8 +43,6 @@ ChemXplain is a **research-grade, autonomous drug discovery platform** that answ
 > *"My lead compound is toxic — which exact atoms are responsible, and how do I fix them?"*
 
 Traditional black-box GNN models predict toxicity but cannot explain *why*. ChemXplain solves this by applying **Occlusion Sensitivity Analysis** (adapted from computer vision) directly to molecular graphs, pinpointing liability-driving atoms at the node, bond, and ring-motif level. It then drives two state-of-the-art generative engines — **CReM** (fragment-based, deterministic) and **REINVENT4** (transformer-based, AstraZeneca's production tool) — to replace those atoms with validated pharmaceutical replacements.
-
-**V16 adds:** Full molecular library EDA (PCA, UMAP, scaffold diversity, Tanimoto heatmap), batch ADMET profiling, REINVENT4 integration with property conditioning tokens, and a bioisostere fallback cascade.
 
 ---
 
