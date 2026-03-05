@@ -397,7 +397,7 @@ You will see several `.prior` files. Choose one based on your task:
 
 Copy the full path to your chosen prior:
 ```
-/home/YOUR_USERNAME/AkshayH/chemXplain/REINVENT4/priors/mol2mol_similarity.prior
+/home/YOUR_USERNAME/.../chemXplain/REINVENT4/priors/mol2mol_similarity.prior
 ```
 
 ### Step 6: Configure in the ChemXplain UI
