@@ -544,7 +544,7 @@ ChemXplain stands entirely on the shoulders of open-source science. If you use t
    Zeiler, M. D., & Fergus, R. (2014). Visualizing and understanding convolutional networks. *ECCV*. https://doi.org/10.1007/978-3-319-10590-1_53
 
 2. **ADMET-AI (property prediction):**
-   Swanson, K., et al. (2023). ADMET-AI: A machine learning ADMET platform. *J. Chem. Inf. Model.* https://doi.org/10.1021/acs.jcim.3c01064
+   Swanson, K., et al. (2024). ADMET-AI: a machine learning ADMET platform for evaluation of large-scale chemical libraries. *Bioinformatics*, 40(7), btae416. https://doi.org/10.1093/bioinformatics/btae416
 
 3. **CReM (fragment-based generation):**
    Polishchuk, P. (2020). CReM: chemically reasonable mutations framework. *J. Cheminform.*, 12, 28. https://doi.org/10.1186/s13321-020-00431-w
